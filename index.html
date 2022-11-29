@@ -4,14 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>X TKJ 1 | SMK RADEN PAKU</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="/components/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/component/css/style.css">
   </head>
   <body class="bg-light">
     <!-- navbar -->
-     <nav class="navbar navbar-expand-lg navbar-fixed-top bg-dark  shadow">
+     <nav class="navbar navbar-expand-lg fixed-top bg-dark  shadow">
      <div class="container-fluid">
      <a class="navbar-brand text-light" href="#">CYBERONE</a>
      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,9 +37,11 @@
     </div>
     </nav>
     <!-- navbar -->
-       
+       <div class="mt-3">
+         
+       </div>
        <!-- qouate -->
-       <div class="container mt-3">
+       <div class="container pt-4 mt-5">
        <figure class="text-center">
   <blockquote class="blockquote">
     <p>"Saya dengar dan saya lupa. Saya melihat dan saya ingat. saya lakukan dan saya mengerti"</p>
@@ -67,43 +68,15 @@
 </div>
     <!-- ini kelas -->
     
-    <!-- ini menu -->
-    <!-- Button trigger modal -->
-    <div class="mb-2">
-<button type="button" class=" btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Dokumen <span class="bi bi-book-half"></span>
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Download Materi</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <a class="btn btn-outline-dark" href="#">Teknik Informatika</a>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-    <!-- menu --></div>
-    
-    
     <!-- Kategory -->
      <div class="row row-cols-1 row-cols-md-2 g-4">
   <div class="col">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Teknik Informatika</h5>
-        <p class="card-text">Materi mengenai Teknik Informatika Kelas 10 TKJ | <a href="#">SMK RADEN PAKU</a></p>
+        <p class="card-text">Materi mengenai Teknik Informatika Kelas 10 TKJ |</p>
           <a href="https://dhikaweb7.github.io/TIK-X-SMK/" class="btn btn-dark">Pelajari</a>
+          <a href="#" class="btn btn-outline-dark">Dokumen <span class="bi bi-book-half"></span></a>
       </div>
     </div>
   </div>
@@ -111,8 +84,9 @@
     <div class="card">
       <div class="card-body">
            <h5 class="card-title">Komputer dan Jaringan Dasar</h5>
-        <p class="card-text">Materi mengenai Komputer dan Jaringan Dasar Kelas 10 TKJ | <a href="#">SMK RADEN PAKU</a></p>
+        <p class="card-text">Materi mengenai Komputer dan Jaringan Dasar Kelas 10 TKJ |</p>
           <a href="#" class="text-end btn btn-dark">Pelajari</a>
+         <a href="#" class="btn btn-outline-dark">Dokumen <span class="bi bi-book-half"></span></a>
       </div>
     </div>
   </div>
@@ -120,8 +94,9 @@
     <div class="card">
       <div class="card-body">
               <h5 class="card-title">Pemrogramanan Dasar</h5>
-        <p class="card-text">Materi mengenai Pemrograman Dasar Kelas 10 TKJ | <a href="#">SMK RADEN PAKU</a></p>
+        <p class="card-text">Materi mengenai Pemrograman Dasar Kelas 10 TKJ |</p>
           <a href="#" class="text-end btn btn-dark">Pelajari</a>
+              <a href="#" class="btn btn-outline-dark">Dokumen <span class="bi bi-book-half"></span></a>
       </div>
     </div>
   </div>
@@ -129,8 +104,9 @@
     <div class="card">
       <div class="card-body">
      <h5 class="card-title">Sistem Komputer</h5>
-        <p class="card-text">Materi mengenai Sistem Komputer Kelas 10 TKJ | <a href="#">SMK RADEN PAKU</a></p>
+        <p class="card-text">Materi mengenai Sistem Komputer Kelas 10 TKJ |</p>
           <a href="#" class="text-end btn btn-dark">Pelajari</a>
+              <a href="#" class="btn btn-outline-dark">Dokumen <span class="bi bi-book-half"></span></a>
       </div>
     </div>
   </div>
@@ -138,16 +114,17 @@
     
     <!-- kategory -->
     
-    <div class="bg-dark pb-2 rounded-top mt-3">
+    <!-- footer -->
+    <div class="bg-dark pb-2 mb-2 rounded mt-3">
       <p class="pt-3 text-center text-light">Di buat dengan <span class="bi bi-heart-fill text-danger"></span></p>
       <p class="mt-0 text-secondary text-center">
         X TKJ 1 | <a class="text-decoration-none" href="#">SMK RADEN PAKU</a>
       </p>
-      <p class="text-secondary">
-        <a href="text-decoration-none">Source Code  <span class="bi bi-github"></span></a>
+      <p class="text-center">
+        <a href="#" class="text-secondary text-decoration-none">Source Code  <span class="bi bi-github"></span></a>
       </p>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- footer -->
     <script src="/components/js/bootstrap.min.js"></script>
   </body>
 </html>
